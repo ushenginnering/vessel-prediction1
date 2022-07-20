@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 from IPython.display import clear_output
 from six.moves import urllib
 import tensorflow as tf
-from tensorflow import feature_column as fc
+import tensorflow.compat.v2.feature_column as fc
 # import tensorflow.compat.v2.feature_column as fc or from tensorflow import feature_column as fc or import tensorflow.compat.v1.feature_column as fc
 
 #from flask_ngrok import run_with_ngrok
